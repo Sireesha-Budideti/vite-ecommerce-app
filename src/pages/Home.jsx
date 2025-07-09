@@ -38,13 +38,15 @@ function Home() {
   return (
     <div className="home-page">
       <div className="hero-section">
-        <h1>Welcome to TechNest 🌐</h1>
-        <p><b>Your trusted destination for cutting-edge gadgets and smart tech.<br/><br/></b></p>
-        <a href="/products" className="shop-now">Shop Now</a>
+        <div className="hero-content">
+          <h1>Welcome to TechNest 🌐</h1>
+          <p><b>Your trusted destination for cutting-edge gadgets and smart tech.</b></p>
+          <a href="/products" className="shop-now">Shop Now</a>
+        </div>
         <img 
-          src='./products/Hero.png'
-          alt="Hero Banner" 
-          className="hero-image" 
+          src="./products/Hero.png"
+          alt="Hero Banner"
+          className="hero-image"
         />
       </div>
 
