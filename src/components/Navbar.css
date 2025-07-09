@@ -1,3 +1,4 @@
+/* ===== Base Styles ===== */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -5,6 +6,21 @@
   padding: 12px 24px;
   background-color: #222;
   color: white;
+  flex-wrap: wrap;
+
+  position: relative; /* ✅ Create stacking context */
+  z-index: 2;         /* ✅ Keep navbar on top of page content */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  font-weight: bold;
+  margin-right: 16px;
+  font-size: 1.2rem;
 }
 
 .nav-links {
@@ -13,6 +29,12 @@
   gap: 16px;
   margin: 0;
   padding: 0;
+
+  z-index: 2; /* ✅ Keep links above hero */
+}
+
+.nav-links li {
+  display: flex;
 }
 
 .nav-links li a {
@@ -35,6 +57,46 @@
   text-decoration: none;
   font-weight: 600;
 }
+
 .cart-link:hover {
   color: #13aec3;
+}
+
+/* ===== Hamburger Toggle ===== */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* ===== Responsive Styles ===== */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px; /* Adjust to your navbar height */
+    left: 0;
+    right: 0;
+    background: #222;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    display: none; /* Hidden by default on mobile */
+  }
+
+  .nav-links.active {
+    display: flex; /* Show when active */
+  }
+
+  .menu-toggle {
+    display: flex; /* Show hamburger on mobile */
+  }
 }
