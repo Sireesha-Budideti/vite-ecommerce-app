@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f2f2f2;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Optional: container class for consistency */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

@@ -1,0 +1,29 @@
+.about-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.about-page h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+  text-align: center;
+}
+
+.about-page p {
+  margin-bottom: 16px;
+  color: #444;
+}
+
+.about-page .tagline {
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: #0070f3;
+}

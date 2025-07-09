@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #222;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.navbar-right {
+  position: relative;
+}
+
+.cart-link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.cart-link:hover {
+  color: #13aec3;
+}
