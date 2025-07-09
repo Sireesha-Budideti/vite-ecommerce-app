@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';  // ✅ Import Link!
 import './Home.css';
 
 function Home() {
@@ -41,8 +42,11 @@ function Home() {
         <div className="hero-content">
           <h1>Welcome to TechNest 🌐</h1>
           <p><b>Your trusted destination for cutting-edge gadgets and smart tech.</b></p>
-          <a href="/Products" className="shop-now">Shop Now</a>
+
+          {/* ✅ Use Link for internal routing */}
+          <Link to="/Products" className="shop-now">Shop Now</Link>
         </div>
+
         <img 
           src="./products/Hero.png"
           alt="Hero Banner"
