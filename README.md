@@ -41,28 +41,25 @@ vite-ecommerce-app/
  ├── package.json
  ├── vite.config.js
  └── README.md⚙️ Getting Started
+
 1️⃣ Clone the repository
 
-bash
-Copy
-Edit
 git clone https://github.com/Sireesha-Budideti/vite-ecommerce-app.git
 cd vite-ecommerce-app
+
+
 2️⃣ Install dependencies
 
-bash
-Copy
-Edit
 npm install
+
+
 3️⃣ Run the development server
 
-bash
-Copy
-Edit
 npm run dev
 4️⃣ Open http://localhost:5173 in your browser.
 
 🔮 Future Enhancements
+
 ✨ Filter and sort products
 ✨ Add product search functionality
 ✨ Integrate with a real backend or headless CMS
@@ -77,17 +74,12 @@ Made with ❤️ by Sireesha Budideti
 
 Happy Coding! 🚀
 
-yaml
-Copy
-Edit
-
----
 
 ### ✅ **How to use**
 
 1️⃣ Save this as your new `README.md`  
 2️⃣ Run:
-```bash
+
 git add README.md
 git commit -m "Add full project README"
 git push
