@@ -41,7 +41,7 @@ function Home() {
         <div className="hero-content">
           <h1>Welcome to TechNest 🌐</h1>
           <p><b>Your trusted destination for cutting-edge gadgets and smart tech.</b></p>
-          <a href="/products" className="shop-now">Shop Now</a>
+          <a href="/Products" className="shop-now">Shop Now</a>
         </div>
         <img 
           src="./products/Hero.png"
