@@ -73,13 +73,3 @@ This project is open source — feel free to fork, contribute, and make it bette
 Made with ❤️ by Sireesha Budideti
 
 Happy Coding! 🚀
-
-
-## ✅ **How to use**
-
-1️⃣ Save this as your new `README.md`  
-2️⃣ Run:
-
-git add README.md
-git commit -m "Add full project README"
-git push
